@@ -1,0 +1,17 @@
+{
+  "name": "@11024788/jsau-npmpackage",
+  "version": "1.0.0",
+  "description": "Package example for GitLab NPM registry",
+  "publishConfig": {
+    "registry": "https://gitlab.sorbonne-paris-nord.fr/api/v4/packages/npm/"
+  },
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "directories": {
+    "test": "tests"
+  }
+}
