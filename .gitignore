@@ -1,0 +1,80 @@
+############################
+# Node / npm
+############################
+node_modules/
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+############################
+# Build / coverage
+############################
+dist/
+build/
+coverage/
+.out/
+.output/
+
+############################
+# Nuxt / Vite / Webpack
+############################
+.nuxt/
+.vite/
+.cache/
+
+############################
+# Electron
+############################
+release/
+app/dist/
+
+############################
+# Environment variables
+############################
+.env
+.env.*
+!.env.example
+
+############################
+# Logs
+############################
+*.log
+_logs/
+
+############################
+# IDE / OS
+############################
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+############################
+# Tests cache
+############################
+.eslintcache
+.jest-cache/
+
+############################
+# NVM
+############################
+.nvmrc.local
+
+############################
+# Certificates / keys
+############################
+*.key
+*.pem
+*.crt
+
+############################
+# Local data (runtime only)
+############################
+jsau-data/json/data.json
+
+############################
+# Optional: ignore all jsau-data
+# (décommente si le prof ne demande pas les fichiers)
+############################
+# jsau-data/
