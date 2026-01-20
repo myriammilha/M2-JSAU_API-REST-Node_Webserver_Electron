@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Gestion des Fichiers</title>
+  <link rel="stylesheet" href="style.css">  
+</head>
+<body>
+  <div class="card">
+    <h1>Gestion des Fichiers</h1>
+
+    <!-- Rechercher un fichier -->
+    <label for="search">Rechercher un fichier</label>
+    <input type="text" id="search" placeholder="Nom du fichier">
+    <button id="search-btn">Rechercher</button>
+    <p id="search-result" style="color: green;"></p>
+
+    <!-- Télécharger un fichier -->
+    <label for="download">Télécharger un fichier</label>
+    <input type="text" id="download" placeholder="Nom du fichier (ex. example.html)">
+    <button id="download-btn">Télécharger</button>
+
+    <!-- Ajouter un fichier aux favoris -->
+    <label for="favorite">Ajouter un fichier aux favoris</label>
+    <input type="text" id="favorite" placeholder="Nom du fichier">
+    <button id="add-favorite-btn">Ajouter aux favoris</button>
+    <p id="favorite-result" style="color: green;"></p>
+    
+    <!-- Liste des favoris -->
+    <div id="favorites-section">
+      <ul id="favorites-list"></ul>
+    </div>
+  </div>
+
+  <script  type="module" src="renderer.js"></script> 
+</body>
+</html>
